@@ -19,12 +19,13 @@ Magento Frontend Developer Guide: [https://developer.adobe.com/commerce/frontend
 ## How To Use
 
 1. Clone the module repository in your app/code/Vendor/CheckoutAgreements folder:
-    $ cd app/code/Vendor
+```html
+$ cd app/code/Vendor
 
-    $ mkdir CheckoutAgreements && cd CheckoutAgreements
+$ mkdir CheckoutAgreements && cd CheckoutAgreements
 
-    $ git clone git@github.com:ivallogenes/m2-checkout-agreements.git .
-
+$ git clone git@github.com:ivallogenes/m2-checkout-agreements.git .
+```
 2. Rename all instances of VendorX with your vendor name across module files.
 2. Override the default checkout agreements template in your theme:
 > www/app/design/frontend/Vendor/default/Magento_CheckoutAgreements/web/template/checkout/checkout-agreements.html
